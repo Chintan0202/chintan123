@@ -20,7 +20,7 @@
     font: normal normal normal 16px/21px Roboto;
     letter-spacing: 0px;
     color: #000000;
-    padding-right: 20px;
+    padding-right: 35%;
     border-width: 0px;
 }
 
@@ -103,16 +103,57 @@ ul {
     margin-left: 30px;
 }
 
-.sidebar {
+.sidebar-active {
+    /* width: 242px;
+  height: 1279px;
+  padding-left: 0px;
+  display: flex; */
+    display: none;
+}
+
+.display-none {
+    /* display: none; */
     width: 242px;
     height: 1279px;
     padding-left: 0px;
     display: flex;
-    
+}
+.search-icon-hide {
+    margin-left: 30px;
+    margin-top: 45px;
+    width: 18px;
+    height: 18px;
 }
 
-.display-none{
-    display: none;
+.search-hide {
+    padding-right: 130px;
+    display: inline;
+    margin-left: 14px;
+    margin-top: 30px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+
+    border-width: 0px;
+}
+
+.profile-hide {
+    margin-top: 30px;
+    margin-left: 45px;
+    width: 44px;
+    height: 44px;
+}
+
+.name-hide {
+    display: inline;
+    margin-top: 40px;
+    margin-left: 14px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
 }
 .main {
     display: flex;
@@ -223,6 +264,7 @@ ul {
 .drop2{
     border: 1px solid #ADADAD;
     border-radius: 5px;
+    padding: 7px;
     
 }
 .drop3{
@@ -238,4 +280,169 @@ ul {
     border: 1px solid #C8242F;
         border-radius: 22px;
         opacity: 1;
+}
+.snackbar h4 {
+    color: #3E3E3E;
+}
+
+.snackbar div img {
+    width: 20px;
+}
+
+.error {
+    border: 1px solid #FF3535;
+    border-radius: 5px;
+    color: #FF3535;
+    height: 35px;
+    padding: 5px;
+}
+
+.info {
+    border: 1px solid #00B9E1;
+    border-radius: 5px;
+    color: #00B9E1;
+    height: 35px;
+    padding: 5px;
+}
+
+.warn {
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+    color: #FFA800;
+    height: 35px;
+    padding: 5px;
+}
+
+.success {
+    border: 1px solid #00AF27;
+    border-radius: 5px;
+    color: #00AF27;
+    height: 35px;
+    padding: 5px;
+}
+
+#primary {
+    width: 120px;
+    height: 30px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    border: none;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#secondary {
+    width: 120px;
+    height: 30px;
+    color: #C8242F;
+    border-radius: 23px;
+    border: 1px solid #C8242F;
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+}
+
+.tab div {
+    display: flex;
+}
+
+.tab div p {
+    margin-right: 10px;
+}
+
+.tab div p span {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: #C8242F;
+}
+
+hr {
+    margin-top: -15px;
+}
+@media screen and (max-width: 450px) {
+
+
+    .search-icon-hide {
+        margin-left: 30px;
+        margin-top: 45px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .search-hide {
+        padding-right: 130px;
+        display: inline;
+        margin-left: 14px;
+        margin-top: 30px;
+        text-align: left;
+        font: normal normal normal 16px/21px Roboto;
+        letter-spacing: 0px;
+        color: #000000;
+
+        border-width: 0px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .profile-hide {
+        margin-top: 30px;
+        margin-left: 45px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .name-hide {
+        display: inline;
+        margin-top: 40px;
+        margin-left: 14px;
+        text-align: left;
+        font: normal normal normal 16px/21px Roboto;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .notification-icon {
+        margin-left: 25px;
+    }
+
+    .slider {
+        padding-left: 0px;
+    }
+
+}
+@media screen and (max-width: 1050px) {
+   
+   
+
+    .search {
+        padding-right: 180px;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .name {
+        display: none;
+    }
+
 }
