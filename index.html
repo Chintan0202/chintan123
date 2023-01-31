@@ -4,255 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-    <link type="text/css" rel="stylesheet" href="css\innerpage.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="css/loginpage.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-   <div class="cont">
-      <a id="menu-img"><img class="menu-logo" src="images\menu-bar.svg"/></a>
-      
-      <img class="header-logo" src="images/header-logo.svg" />
-      <img class="search-icon" src="images\search-icon.svg" />
-      <input class="search" placeholder="Search" />
-      <img class="notification-icon" src="images\notification-icon.svg" />
-      <img class="profile" src="images\profile.png" />
-      <span class="name">John Doe</span>
-      <img class="downward" src="images\downward-arrow.svg" />
+    <div>
+        <div class="cont">
+        <div class="left">
+            <img src="images/hero-image.png">
+        </div>
+        <div class="right">
+            <img class="header-logo"src="images/header-logo.svg">
+            <p class="text1">We are
+                <span class="expert-txt"> expert</span>
+                 in business, marketing, growth, & sales.</p>
+                 <p class="text2">Login to your account</p>
+                 <input class="uname" type="text" placeholder="username">
+                 <input class="pass" type="password" placeholder="Password">
+                 <div style="display: flex;">
+                    <button id="login-btn" type="submit">Login</button>
+                 <p class="forget">Forget password</p>
+                 </div>
+                 <p class="text3">Are you new member? <a id="register-link">Register Here</a></p>
+                 
+        </div>
     </div>
-
-    <div class="cont">
-          <aside id="side-bar"class="sidebar-active">
-        <ul class="slider">
-          <li style="display: flex;">
-            <img class="search-icon-hide" src="images\search-icon.svg" />
-      <input class="search-hide" placeholder="Search" />
-      
-            </li>
-            <li style="display: flex;">
-            <img class="profile-hide" src="images\profile.png" />
-      <span class="name-hide">John Doe</span></li>
-          <li class="active-box">
-            <img class="img-logo" src="images\dashboard-active.svg" />
-            <p class="active-text">Dashboard</p>
-          </li>
-
-          <li></li>
-          <li class="box">
-            <img class="img-logo" src="images\graph-default.svg" />
-            <p class="text">Analysis</p>
-          </li>
-          <li class="box">
-            <img class="img-logo" src="images\inbox-default.svg" />
-            <p class="text">Inbox</p>
-          </li>
-          <li class="box">
-            <img class="img-logo" src="images\clock-default.svg" />
-            <p class="text">History</p>
-          </li>
-
-          <li class="box">
-            <img class="img-logo" src="images\user-default.svg" />
-            <p class="text">Users</p>
-          </li>
-          <li class="box">
-            <img class="img-logo" src="images\maintenance-default.svg" />
-            <p class="text">Maintainence</p>
-          </li>
-        </ul>
-      </aside>
-     <div class="rightdashboard">
-                    <p class="title">Analysis</p>
-                    <div class="maincont">
-                      <form class="form1">
-                              <h5>One Column</h5>
-                              <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Name" >
-                                <select class="form-select col drop1" >
-                                      <option selected>Dropdown</option>
-                                      <option value="1">One</option>
-                                      <option value="2">Two</option>
-                                      <option value="3">Three</option>
-                                    </select>
-                              </div>
-                              <div class="form-floating">
-                                <textarea class="form-control" placeholder="Multiple lines" id="floatingTextarea2" style="height: 100px"></textarea>
-                                </div>
-
-                              <div class="two-column">
-
-                                <h5>Two column</h5>
-                                <div class="row">
-                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                    <input type="text" class="form-control" placeholder="Name" aria-label="First name">
-                                  </div>
-                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                    <input type="text" class="form-control" placeholder="John Doe" aria-label="Last name">
-                                  </div>
-                                </div>
-                                <div class="row mt-3">
-                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                    <input type="password" class="form-control" placeholder="Password" aria-label="First name">
-                                  </div>
-                                  <select class="form-select col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3 drop2" >
-                                      <option selected>Dropdown</option>
-                                      <option value="1">One</option>
-                                      <option value="2">Two</option>
-                                      <option value="3">Three</option>
-                                    </select>
-                                </div>
-
-                                </div>
-
-                              <div class="three-column">
-                                <h5>Three Column</h5>
-                                <div class="row">
-                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                    <input type="text" class="form-control" placeholder="Focus" aria-label="First name">
-                                  </div>
-                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                    <input type="password" class="form-control" placeholder="Password" aria-label="Last name">
-                                  </div>
-                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                      <input type="text" class="form-control disabled" placeholder="John Doe" >
-                                    </div>
-                                </div>
-                              </div>
-
-
-                              <div class="four-column">
-
-
-                                <h5>Four Column</h5>
-                                <div class="row">
-                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                      <input type="email" class="form-control" placeholder="UI Designer">
-                                    </div>
-                                    <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                      <input type="email" class="form-control"  placeholder="Name">
-                                    </div>
-                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                    <input type="text" class="form-control" placeholder="John Doe">
-                                  </div>
-                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
-                                      <select class="form-select col drop3" >
-                                      <option selected>Dropdown</option>
-                                      <option value="1">One</option>
-                                      <option value="2">Two</option>
-                                      <option value="3">Three</option>
-                                    </select>
-                                    </div>
-                                </div>
-
-                                <h5 class="otherdesign">Other Design Elements</h5>
-
-                                <div class="file-upload">
-
-
-                                <h6>File Upload</h3>
-                                  <button class="rounded"><img src="images/cloud-upload-icon.svg">Upload</button>
-
-
-                                  <h6 class="mt-5">Radio Button</h6>
-                                  <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                      <label class="form-check-label" for="inlineRadio1">Option 1</label>
-                                    </div>
-                                    <div class="form-check form-check-inline checked">
-                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                      <label class="form-check-label" for="inlineRadio2">Option 2</label>
-                                    </div>
-                                    <h6 class="mt-5">Check Box</h6>
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                      <label class="form-check-label" for="inlineCheckbox1">Option 1</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                      <label class="form-check-label" for="inlineCheckbox2">Option 2</label>
-                                    </div>
-
-                                </div>
-<br>
-<br>
-<br>
-                                <div class="snackbar">
-                              <h5>Snackbar</h5>
-                        <div class="row ">
-                            <div class="col-lg-6 col-md-6 col-12 my-3 ">
-                                <div class=" error">
-                                    <img src="./images/error-icon.svg" alt="wait">
-                                    This is an error Message
-                                </div>
-                            </div>
-                            <div class=" col-lg-6 col-md-6  col-12 my-3">
-                                <div class="info">
-                                    <img src="./images/info-icon.svg" alt="wait">
-                                    This is an information Message
-                                </div>
-                            </div>
-                            <div class=" col col-lg-6 col-md-6  col-12 my-3">
-                                <div class="warn">
-                                    <img src="./images/warning-icon.svg" alt="wait">
-                                    This is a warning Message
-                                </div>
-                            </div>
-                            <div class="col col-lg-6 col-md-6  col-12 my-3">
-                                <div class="success">
-                                    <img src="./images/success-icon.svg" alt="wait">
-                                    This is a Success Message
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="call">
-                        <h5>Call to Action</h5>
-                        <div>
-                            <input type="button" value="Primary" id="primary">
-                            <input type="button" value="Secondary" id="secondary">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="tab">
-                        <h5>Tabs</h5>
-                        <div>
-                            <p><span>Tab 1</span></p>
-                            <p>Tab 2</p>
-                            <p>Tab 3</p>
-                        </div>
-                        <hr>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus itaque earum dicta tempore impedit inventore amet iure officia error sed exercitationem consequatur quibusdam sit, ea et eveniet alias dignissimos, recusandae molestias. Perspiciatis nobis recusandae dolorum fuga assumenda mollitia. Quas soluta a aut delectus ipsam exercitationem animi sed vero quis dignissimos.                            
-                        </p>
-                    </div>
-                                
-                        <div class="tab-content" id="pills-tabContent">
-                          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">Lorem ipsum dolor sit amet ud exercitati Excepteur sint deseorum.</div>
-                          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">This is the second tab which you are going to select</div>
-                          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">This is the third tab which you are going to select</div>
-                        </div>
-                          </div>
-                          </form>
-                            </div>
-</div>
-     
-    <script>
-      document.getElementById("menu-img").onclick=function(){
-        document.getElementById("side-bar").classList.toggle("display-none")
-      }
-    </script>
+    </div>
+    
 </body>
 </html>
